@@ -8,7 +8,7 @@ def handle_jira_webhook():
     issue = request.json
     server = "https://llm-jira-solver.atlassian.net/"
     email = "riteshjbhattad@gmail.com"
-    jiraToken = "ATATT3xFfGF0cR1v4vkV0QcPjFs5FdN-5Ty8QckvCDtYXGwoDOfTKNBuPlHE81YyO0KTC0kzcR7MMZ6j55CpcfE2xkIuIz0LpP5iaJ93EoW8fr-e2TJxbTNlovUSZGYjvaWnP1jIN7xWkV9Fz13iyYQ2OavZFR8hOWDiB9qx5Gsc8yf0bQ5oL5A=7DEFC8F9"
+    jiraToken = ""
     label = "Dev-tests"
     
     summary, description, attachments, comments, key, status = jiraExt(issue)

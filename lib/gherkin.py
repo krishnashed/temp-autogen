@@ -7,7 +7,7 @@ from openai import OpenAI
 #         pass
         
 def generate_gherkin_scenarios(task_description, gpt_model):
-    openai_api_key = "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"
+    openai_api_key = ""
     client = OpenAI(api_key=openai_api_key)
         # Constructing the prompt for GPT-4
     prompt = f"""Convert the following task description into a Gherkin document with at least 5 scenarios using Behavior-Driven Development principles. Each scenario should follow the Given-When-Then structure.
